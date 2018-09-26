@@ -9,10 +9,7 @@ for fold in range(ne):
     count=str(fold+1)
     dir_path = os.path.dirname(os.path.realpath("C:/Users/George/Desktop/Participants/ffmpeg_try/part"+str(part)+"_errors/p"+str(part)+"_ne"+count+"/result.avi"))
 
-    # this finds our json files
-    #print(os.path.abspath("output.py"))
-    #print(os.getcwd())
-    #wdir=os.getcwd()
+ 
     path_to_json = dir_path
     json_files = [pos_json for pos_json in os.listdir(path_to_json) if pos_json.endswith('.json')]
     print(path_to_json)
