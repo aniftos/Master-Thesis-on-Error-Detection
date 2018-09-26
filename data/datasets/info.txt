@@ -1,0 +1,6 @@
+ffmpeg used for video cropping
+
+ffmpeg -i part25.mp4 -ss 00:01:00 -to 00:03:00 -vcodec libx264 -acodec libvo_aacenc output.mp4
+
+also check this website
+https://superuser.com/questions/138331/using-ffmpeg-to-cut-up-video
